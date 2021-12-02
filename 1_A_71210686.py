@@ -1,4 +1,4 @@
-n= str(input("Masukkan deret angka: "))
+n=input("Masukkan deret angka: ")
 
 n=n.split(",")
 angka=[]
@@ -7,7 +7,7 @@ for i in n:
     i=int(i)
     if i%2==0:
         angka.append(i)
-    else :
+    else:
         angka.append(i*-1)
 
 print("Total :",end="")
